@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Carrinho-de-Compras-React-JS/static/css/main.c62fbb7d.css",
+    "main.js": "/Carrinho-de-Compras-React-JS/static/js/main.22b4cf4c.js",
+    "static/js/453.914c5cf1.chunk.js": "/Carrinho-de-Compras-React-JS/static/js/453.914c5cf1.chunk.js",
+    "index.html": "/Carrinho-de-Compras-React-JS/index.html",
+    "main.c62fbb7d.css.map": "/Carrinho-de-Compras-React-JS/static/css/main.c62fbb7d.css.map",
+    "main.22b4cf4c.js.map": "/Carrinho-de-Compras-React-JS/static/js/main.22b4cf4c.js.map",
+    "453.914c5cf1.chunk.js.map": "/Carrinho-de-Compras-React-JS/static/js/453.914c5cf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c62fbb7d.css",
+    "static/js/main.22b4cf4c.js"
+  ]
+}
