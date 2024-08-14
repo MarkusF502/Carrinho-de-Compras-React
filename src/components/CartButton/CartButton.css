@@ -1,0 +1,31 @@
+.cart_button{
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+  color: #0d0c22;
+  position: relative;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+.cart_button:hover{
+  outline: none;
+  border-color: rgb(2, 156, 2);
+  background-color: #fff;
+  box-shadow: 0 0 0 2px rgb(234 76 137 / 10%);
+  transition: .3s ease;
+}
+.cart-status{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: yellow;
+  top: 0;
+  left: 0;
+  font-size: 0.8rem;
+}

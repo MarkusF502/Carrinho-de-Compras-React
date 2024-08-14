@@ -1,0 +1,13 @@
+.header{
+  background-color: darkslategray;
+  height: 45px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+.header > div{
+  display: flex;
+  justify-content: space-between;
+}
+

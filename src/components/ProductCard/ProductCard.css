@@ -1,0 +1,80 @@
+.product_card{
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.4s;
+}
+.product_card:hover{
+  box-shadow: 5px 5px 30px rgb(134, 199, 199),
+             -5px -5px 30px #2f4f4f;
+}
+
+.card_image{
+  width: 100%;
+}
+
+.card_info{
+  padding: 10px;
+  margin-bottom: auto;
+}
+
+.card_price{
+  font-size: 25px;
+  font-weight: 400;
+  display: block;
+}
+
+.card_title{
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba( 0, 0, 0, 0.5);
+  line-height: 1.5;
+}
+
+.card_button {
+  padding: 0.3em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 25px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+  bottom: 0;
+  position: relative;
+}
+
+.card_button:hover {
+  color: whitesmoke;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px darkslategray;
+}
+
+.card_button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: darkslategray;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.card_button:hover::before {
+  width: 250%;
+}

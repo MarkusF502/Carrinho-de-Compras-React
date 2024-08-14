@@ -1,0 +1,86 @@
+.cart_item{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+ position: relative;
+}
+.cart_item_img{
+  width: 70px;
+}
+
+.cart_item_title{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.cart_item_price{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.cart_item_content{
+padding: 0 35px 0 10px;
+}
+
+
+
+
+
+
+
+.button_cart_item {
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: .3s;
+  overflow: hidden;
+  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.svgIcon {
+  width: 30px;
+  transition-duration: .3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.button_cart_item:hover {
+  border-radius: 50px;
+  transition-duration: .3s;
+  background-color: rgb(255, 69, 69);
+  align-items: center;
+}
+
+.button_cart_item::before {
+  position: absolute;
+  top: -20px;
+  color: white;
+  transition-duration: .3s;
+  font-size: 1px;
+}
+
+.button_cart_item:hover::before {
+  font-size: 20px;
+  opacity: 1;
+  transform: translateY(30px);
+  transition-duration: .3s;
+}

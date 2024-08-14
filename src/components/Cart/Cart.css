@@ -1,0 +1,35 @@
+.cart{
+  width: 100%;
+  max-width: 330px;
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 100px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translate(110%, 0);
+  transition: all 400ms ease;
+}
+
+.cart_items{
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.cart_resume{
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 35px 0 15px;
+  border-top: 1px solid rgb(165, 165, 165);
+}
+
+.cart_items .cart_item:last-child{
+  border-bottom: none;
+}
+
+.cart_on{
+  transform: translate(0, 0);
+}
