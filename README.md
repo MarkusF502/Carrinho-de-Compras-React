@@ -17,7 +17,7 @@ Este projeto é um aplicativo de carrinho de compras desenvolvido com React.js q
 
 ## Sobre o Código
 
-Utilizei alguns Hooks para fazer esse projeto, como useState para atualizar o estado dos carrinhos e useContext para fazer com que os componentes herdem as propriedades entre eles independente de sua localização no projeto. 
+Utilizei alguns Hooks para fazer esse projeto, como useState para atualizar o estado dos carrinhos, useContext para fazer com que os componentes herdem as propriedades entre eles independente de sua localização no projeto e useEffect para acionar a animação de Loading antes de carregar os itens da página. 
 
 Esse projeto faz parte de um conjunto de aulas do canal Manual do Dev, que ensinou React ao construir esse projeto. Fiz algumas alterações na minha loja para tornar algo mais personalizado, além de construir as soluções de alguns problemas por minha conta em alguns casos.
 
