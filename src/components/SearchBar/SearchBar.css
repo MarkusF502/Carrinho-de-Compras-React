@@ -1,4 +1,5 @@
 .group {
+  margin-top: 5px;
   display: flex;
   line-height: 28px;
   align-items: center;
